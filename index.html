@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>Series</title>
+    <style>
+        body {
+          margin: 0;
+          padding: 0;
+        }
+        
+        .blue-space {
+          background-color: lightblue;
+          height: 50px;
+          width: 100%;
+        }
+      </style>
+</head>
+<body>
+    <div class="blue-space">
+        <img src="https://www.pngmart.com/files/15/Camcorder-Vector-Film-Camera-Transparent-PNG.png" height=50px alt="Camera">
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <table id="tabla" class="table table-striped">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Name</th>
+                <th scope="col">Channel</th>
+                <th scope="col">Seasons</th>
+              </tr>
+            </thead>
+            <tbody id="cuerpo">
+              
+            </tbody>
+          </table>
+          <h6 id="seasons"></h6>
+        </div>
+        <div class="col" id="detalles">
+
+        </div>
+      </div>
+    </div>
+      <script type="module" src="./serie.js"></script>
+    <script type="module" src="./data.js"></script>
+    <script type="module" src="./main.js"></script>
+</body>
+</html>
